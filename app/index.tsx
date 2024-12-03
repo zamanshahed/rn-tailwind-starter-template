@@ -1,4 +1,6 @@
 import { Text, View } from "react-native";
+import "../global.css"
+
 
 export default function Index() {
   return (
@@ -9,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Binary in my blood!</Text>
+      <Text className="text-3xl text-cyan-600">Hi Sumaya!</Text>
     </View>
   );
 }
